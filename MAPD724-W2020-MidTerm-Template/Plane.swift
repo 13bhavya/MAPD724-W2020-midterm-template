@@ -14,17 +14,17 @@ class Plane: GameObject
     }
     
     override func CheckBounds()
-    {
+    {   
         // right boundary
-        if(self.position.y >= 290 - self.halfWidth!)
+        if(self.position.y >= 200 - self.halfWidth!)
         {
-            self.position.y = 290 - self.halfWidth!
+            self.position.y = 200 - self.halfWidth!
         }
         
         // left boundary
-        if(self.position.y <= -290 + self.halfWidth!)
+        if(self.position.y <= -200 + self.halfWidth!)
         {
-            self.position.y = -290 + self.halfWidth!
+            self.position.y = -200 + self.halfWidth!
         }
     }
     

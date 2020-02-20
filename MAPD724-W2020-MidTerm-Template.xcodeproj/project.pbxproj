@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3F52069E23FE22370082CB85 /* LevelTwo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F52069D23FE22370082CB85 /* LevelTwo.swift */; };
+		3F5206A223FE241F0082CB85 /* OceanTwo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F5206A123FE241F0082CB85 /* OceanTwo.swift */; };
 		E9687B2A23D9275000C81980 /* Ocean.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9687B2923D9275000C81980 /* Ocean.swift */; };
 		E9687B2D23D93B3900C81980 /* StartScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = E9687B2C23D93B3900C81980 /* StartScene.sks */; };
 		E9687B2F23D93B8E00C81980 /* StartScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9687B2E23D93B8E00C81980 /* StartScene.swift */; };
@@ -35,6 +37,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3F52069D23FE22370082CB85 /* LevelTwo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LevelTwo.swift; sourceTree = "<group>"; };
+		3F5206A023FE224F0082CB85 /* LevelTwo.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; name = LevelTwo.sks; path = LevelTwo.playground/Resources/LevelTwo.sks; sourceTree = "<group>"; };
+		3F5206A123FE241F0082CB85 /* OceanTwo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OceanTwo.swift; sourceTree = "<group>"; };
 		E9687B2923D9275000C81980 /* Ocean.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ocean.swift; sourceTree = "<group>"; };
 		E9687B2C23D93B3900C81980 /* StartScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = StartScene.sks; sourceTree = "<group>"; };
 		E9687B2E23D93B8E00C81980 /* StartScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartScene.swift; sourceTree = "<group>"; };
@@ -84,6 +89,8 @@
 				E9687B2E23D93B8E00C81980 /* StartScene.swift */,
 				E9687B3623D94E6B00C81980 /* EndScene.swift */,
 				E9687B3823D94F8300C81980 /* EndScene.sks */,
+				3F5206A023FE224F0082CB85 /* LevelTwo.sks */,
+				3F52069D23FE22370082CB85 /* LevelTwo.swift */,
 			);
 			name = Scenes;
 			sourceTree = "<group>";
@@ -160,6 +167,7 @@
 				E98998B423CFFC4B00D7CBD3 /* Island.swift */,
 				E98998B623D00ABF00D7CBD3 /* Cloud.swift */,
 				E9687B2923D9275000C81980 /* Ocean.swift */,
+				3F5206A123FE241F0082CB85 /* OceanTwo.swift */,
 			);
 			name = Objects;
 			sourceTree = "<group>";
@@ -250,7 +258,9 @@
 				E9687B3523D94A5600C81980 /* GameManager.swift in Sources */,
 				E98998B523CFFC4B00D7CBD3 /* Island.swift in Sources */,
 				E96C38FB23E2769F0038239E /* ScoreManager.swift in Sources */,
+				3F5206A223FE241F0082CB85 /* OceanTwo.swift in Sources */,
 				E9687B2A23D9275000C81980 /* Ocean.swift in Sources */,
+				3F52069E23FE22370082CB85 /* LevelTwo.swift in Sources */,
 				E96C38F823E25DAA0038239E /* CollisionManager.swift in Sources */,
 				E9687B3723D94E6B00C81980 /* EndScene.swift in Sources */,
 				E989988D23CFDE4300D7CBD3 /* AppDelegate.swift in Sources */,

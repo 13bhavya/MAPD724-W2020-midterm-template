@@ -11,8 +11,8 @@ import SpriteKit
 import GameplayKit
 
 class GameViewController: UIViewController, GameManager {
-    
-    
+     
+        
     // button outlets
     @IBOutlet weak var StartButtonOutlet: UIButton!
     @IBOutlet weak var BackButtonOutlet: UIButton!
@@ -65,16 +65,6 @@ class GameViewController: UIViewController, GameManager {
         return true
     }
     
-    func updateScoreLabel() -> Void
-    {
-        ScoreLabel.text  = "Score: \(ScoreManager.Score)"
-    }
-    
-    func updateLivesLabel() -> Void
-    {
-        LivesLabel.text = "Lives: \(ScoreManager.Lives)"
-    }
-    
     
     func SetScene(sceneName: String)
     {
@@ -100,6 +90,21 @@ class GameViewController: UIViewController, GameManager {
         }
     }
     
+    func updateScoreLabel() -> Void
+    {
+        ScoreLabel.text  = "Score: \(ScoreManager.Score)"
+        if(ScoreManager.Score == 500){
+            PresentTwoScene()
+            print("level two")
+        }
+    }
+    
+    func updateLivesLabel() -> Void
+    {
+        LivesLabel.text = "Lives: \(ScoreManager.Lives)"
+        
+    }
+    
     func PresentStartScene() {
         StartButtonOutlet.isHidden = false
         LivesLabel.isHidden = true
@@ -109,9 +114,13 @@ class GameViewController: UIViewController, GameManager {
     
     func PresentEndScene() {
         BackButtonOutlet.isHidden = false
-        LivesLabel.isHidden = true
+        LivesLabel.isHidden  = true
         ScoreLabel.isHidden = true
         SetScene(sceneName: "EndScene")
+    }
+    
+    func PresentTwoScene() {
+        SetScene(sceneName: "LevelTwo")
     }
     
     
@@ -138,6 +147,5 @@ class GameViewController: UIViewController, GameManager {
         updateScoreLabel()
         SetScene(sceneName: "GameScene")
     }
-    
-    
+
 }

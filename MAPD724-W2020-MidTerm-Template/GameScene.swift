@@ -8,7 +8,7 @@ let screenSize = UIScreen.main.bounds
 var screenWidth: CGFloat?
 var screenHeight: CGFloat?
 
-
+ 
 class GameScene: SKScene {
     
     var gameManager: GameManager?
@@ -37,7 +37,7 @@ class GameScene: SKScene {
         self.addChild(oceanSprite1!)
         
         self.oceanSprite2 = Ocean()
-        self.oceanSprite2?.position = CGPoint(x: 896, y: 0)
+        self.oceanSprite2?.position = CGPoint(x: 895.15, y: 0)
         self.addChild(oceanSprite2!)
         
         // add plane
@@ -50,7 +50,7 @@ class GameScene: SKScene {
         self.addChild(islandSprite!)
         
         // add clouds
-        for index in 0...3
+        for index in 0...0
         {
             let cloud: Cloud = Cloud()
             cloudSprites.append(cloud)
