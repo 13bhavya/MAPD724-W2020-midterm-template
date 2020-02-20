@@ -1,3 +1,9 @@
+
+// Name : Bhavya Shah
+// Exam Date: 19 Feb' 2020
+// Student id : 301076681
+
+
 import UIKit
 import AVFoundation
 import SpriteKit
@@ -10,6 +16,10 @@ class LevelTwo: SKScene {
     
     
     override func didMove(to view: SKView) {
+        
+        screenWidth = frame.width
+        screenHeight = frame.height
+        
         // add ocean
         self.oceanSprite1 = OceanTwo()
         self.oceanSprite1?.position = CGPoint(x: 0, y: 0)

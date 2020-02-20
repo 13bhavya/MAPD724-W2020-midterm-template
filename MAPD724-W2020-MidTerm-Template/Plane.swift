@@ -1,3 +1,8 @@
+
+// Name : Bhavya Shah
+// Exam Date: 19 Feb' 2020
+// Student id : 301076681
+
 import SpriteKit
 
 class Plane: GameObject
@@ -14,7 +19,7 @@ class Plane: GameObject
     }
     
     override func CheckBounds()
-    {   
+    {
         // right boundary
         if(self.position.y >= 200 - self.halfWidth!)
         {

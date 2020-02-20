@@ -1,4 +1,7 @@
 
+// Name : Bhavya Shah
+// Exam Date: 19 Feb' 2020
+// Student id : 301076681
 import UIKit
 import AVFoundation
 import SpriteKit
@@ -37,7 +40,7 @@ class GameScene: SKScene {
         self.addChild(oceanSprite1!)
         
         self.oceanSprite2 = Ocean()
-        self.oceanSprite2?.position = CGPoint(x: 895.15, y: 0)
+        self.oceanSprite2?.position = CGPoint(x: 895.0, y: 0)
         self.addChild(oceanSprite2!)
         
         // add plane
