@@ -11,7 +11,7 @@ class Ocean : GameObject
     //constructor
     init()
     {
-        super.init(imageString: "ocean", initialScale: 1.0)
+        super.init(imageString: "ocean", initialScale: 1.1)
         Start()
     }
     
@@ -33,6 +33,7 @@ class Ocean : GameObject
     override func Reset()
     {
         self.position.x = 896
+        self.zRotation = .pi
     }
     
     override func Start()

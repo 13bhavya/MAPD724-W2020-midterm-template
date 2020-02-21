@@ -19,6 +19,7 @@ class GameViewController: UIViewController, GameManager {
     
     // label outlets
     @IBOutlet weak var StartLabel: UILabel!
+    @IBOutlet weak var nextLvlLabel: UILabel!
     @IBOutlet weak var LivesLabel: UILabel!
     @IBOutlet weak var ScoreLabel: UILabel!
     
@@ -31,6 +32,7 @@ class GameViewController: UIViewController, GameManager {
         BackButtonOutlet.isHidden = true
         LivesLabel.isHidden = true
         ScoreLabel.isHidden = true
+        nextLvlLabel.isHidden = true
         
         CollisionManager.gameViewController = self
         
@@ -110,16 +112,26 @@ class GameViewController: UIViewController, GameManager {
         LivesLabel.isHidden = true
         ScoreLabel.isHidden = true
         StartLabel.isHidden = false
+        nextLvlLabel.isHidden = true
     }
     
     func PresentEndScene() {
         BackButtonOutlet.isHidden = false
         LivesLabel.isHidden  = true
         ScoreLabel.isHidden = true
+        nextLvlLabel.isHidden = true
         SetScene(sceneName: "EndScene")
+        
     }
     
     func PresentTwoScene() {
+        BackButtonOutlet.isHidden = true
+        StartButtonOutlet.isHidden = true
+        LivesLabel.isHidden  = true
+        ScoreLabel.isHidden = true
+        nextLvlLabel.isHidden = false
+        ScoreManager.Score = 0
+        ScoreManager.Lives = 5
         SetScene(sceneName: "LevelTwo")
     }
     

@@ -12,7 +12,7 @@ class OceanTwo : GameObject{
     //constructor
     init()
     {
-        super.init(imageString: "oceanTwo", initialScale: 1.0)
+        super.init(imageString: "oceanTwo", initialScale: 1.1)
         Start()
     }
     

@@ -40,7 +40,8 @@ class GameScene: SKScene {
         self.addChild(oceanSprite1!)
         
         self.oceanSprite2 = Ocean()
-        self.oceanSprite2?.position = CGPoint(x: 895.0, y: 0)
+        self.oceanSprite2?.zRotation = .pi
+        self.oceanSprite2?.position = CGPoint(x: 896, y: 0)
         self.addChild(oceanSprite2!)
         
         // add plane

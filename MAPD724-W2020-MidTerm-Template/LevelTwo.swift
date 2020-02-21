@@ -28,6 +28,8 @@ class LevelTwo: SKScene {
         self.oceanSprite2 = OceanTwo()
         self.oceanSprite2?.position = CGPoint(x: 895.15, y: 0)
         self.addChild(oceanSprite2!)
+        
+        print("Ocean two sprite add")
     }
     
     override func update(_ currentTime: TimeInterval) {

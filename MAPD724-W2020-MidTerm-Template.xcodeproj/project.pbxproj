@@ -34,11 +34,11 @@
 		E98998B323CFF20200D7CBD3 /* Plane.swift in Sources */ = {isa = PBXBuildFile; fileRef = E98998B223CFF20200D7CBD3 /* Plane.swift */; };
 		E98998B523CFFC4B00D7CBD3 /* Island.swift in Sources */ = {isa = PBXBuildFile; fileRef = E98998B423CFFC4B00D7CBD3 /* Island.swift */; };
 		E98998B723D00ABF00D7CBD3 /* Cloud.swift in Sources */ = {isa = PBXBuildFile; fileRef = E98998B623D00ABF00D7CBD3 /* Cloud.swift */; };
+		EAB75FAA23FF57EC00E7CE73 /* LevelTwo.sks in Resources */ = {isa = PBXBuildFile; fileRef = EAB75FA923FF57EC00E7CE73 /* LevelTwo.sks */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		3F52069D23FE22370082CB85 /* LevelTwo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LevelTwo.swift; sourceTree = "<group>"; };
-		3F5206A023FE224F0082CB85 /* LevelTwo.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; name = LevelTwo.sks; path = LevelTwo.playground/Resources/LevelTwo.sks; sourceTree = "<group>"; };
 		3F5206A123FE241F0082CB85 /* OceanTwo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OceanTwo.swift; sourceTree = "<group>"; };
 		E9687B2923D9275000C81980 /* Ocean.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ocean.swift; sourceTree = "<group>"; };
 		E9687B2C23D93B3900C81980 /* StartScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = StartScene.sks; sourceTree = "<group>"; };
@@ -67,6 +67,7 @@
 		E98998B223CFF20200D7CBD3 /* Plane.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Plane.swift; sourceTree = "<group>"; };
 		E98998B423CFFC4B00D7CBD3 /* Island.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Island.swift; sourceTree = "<group>"; };
 		E98998B623D00ABF00D7CBD3 /* Cloud.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cloud.swift; sourceTree = "<group>"; };
+		EAB75FA923FF57EC00E7CE73 /* LevelTwo.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = LevelTwo.sks; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,8 +90,8 @@
 				E9687B2E23D93B8E00C81980 /* StartScene.swift */,
 				E9687B3623D94E6B00C81980 /* EndScene.swift */,
 				E9687B3823D94F8300C81980 /* EndScene.sks */,
-				3F5206A023FE224F0082CB85 /* LevelTwo.sks */,
 				3F52069D23FE22370082CB85 /* LevelTwo.swift */,
+				EAB75FA923FF57EC00E7CE73 /* LevelTwo.sks */,
 			);
 			name = Scenes;
 			sourceTree = "<group>";
@@ -231,6 +232,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E9687B2D23D93B3900C81980 /* StartScene.sks in Resources */,
+				EAB75FAA23FF57EC00E7CE73 /* LevelTwo.sks in Resources */,
 				E98998AA23CFE41500D7CBD3 /* yay.mp3 in Resources */,
 				E989989823CFDE4300D7CBD3 /* Main.storyboard in Resources */,
 				E96C38F923E273330038239E /* Dock51.ttf in Resources */,
